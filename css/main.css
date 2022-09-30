@@ -1,0 +1,104 @@
+/*Body Flexbox*/
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+/*Main FlexBox*/
+main{
+  flex: auto;
+}
+
+/*Body*/
+body { 
+  /*Colours*/
+  color: #0A2472;
+  background-color: #F9F5FF;
+
+  /*Typography*/
+  font-family: 'Lexend', sans-serif;
+  font-size: 20px;
+
+  /*box model*/
+  padding: 1rem;
+  line-height: 1.7rem;
+  text-align: center; 
+}
+
+/*Page Title*/
+header {
+  /*Colours*/
+  color: #F9F5FF;
+  background-color: #0A2472 ;
+  
+  /*Typography*/
+  font-family: 'Rubik Dirt', Impact, 'Arial Narrow Bold', sans-serif;
+  font-size: 32px;
+
+  /*Box Model*/
+  text-align: right;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+
+/*Navigation(parent)*/
+nav ul {
+  /*list styling*/
+  list-style: none;
+ 
+  /*FlexBox*/
+  display: flex;
+  justify-content:flex-end;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+/*Navigation Items(children)*/
+nav a {
+  /*Colour*/
+  color: #0A2472; 
+  background-color:#F78E69 ;
+
+  /*Typography*/
+  font-family: 'Lexend', Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+
+  /*Box Model*/
+  padding: 1px;
+
+  /*Link Alterations*/
+  text-decoration: none;
+}
+
+/*Page heading*/
+h1 {
+  /*Box Model*/
+  padding-top: 10rem;
+}
+
+ /*Home Button*/
+.go-home {
+  /*Colours*/
+  color: #0A2472;
+  background-color: #F78E69;
+
+  /*Link Alterations*/
+  text-decoration: none;
+
+/*Box Model*/
+  padding: 10px;
+}
+/*Footer*/
+footer{
+  /*Typography*/
+  font-size: 12px;
+}
+/*Footer Nativation(parent)*/
+.footer-nav{
+  list-style: none;
+}
+/*Footer Navigation(children)*/
+.footer-nav a {
+  color: #0A2472 ;
+  font-size: 14px;
+}
